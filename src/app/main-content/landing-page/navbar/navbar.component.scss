@@ -26,9 +26,11 @@ a {
 
 .phone_btn {
     display: flex;
-    background-color: aqua;
-    flex-wrap: wrap;
+    background-color: rgb(255, 0, 0);
+    align-items: flex-end;
+    border-left: 15px;
     >img {
         width: 20px;
         height: 20px;
-    }}
+    }
+}

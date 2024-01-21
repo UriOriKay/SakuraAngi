@@ -19,6 +19,7 @@
           "options": {
             "outputPath": "dist/sakura",
             "index": "src/index.html",
+            "baseHref": "/angular-projects/sakura/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -89,6 +90,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [""]
+            },
             "styles": [
               "src/styles.scss"
             ],

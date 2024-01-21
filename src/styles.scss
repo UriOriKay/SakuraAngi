@@ -1,14 +1,15 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url(/assets/fonts/Raleway-Regular.ttf);
-}
-
+// @font-face {
+//     font-family: 'Raleway';
+//     src: url('/./assets/fonts/Raleway-Regular.ttf');
+// }
 
 * {
     margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
-.font-raleway {
-    font-family: 'Raleway';
-}
+// .font-raleway {
+//     font-family: 'Raleway';
+// }
